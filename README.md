@@ -1,11 +1,10 @@
 # agenda
 
-Descripciín basisca de su Proyecto de POO ...
+Es un proyecto que va orientado a la creacion de una agenda.
 
 # Autores
 
-- Autor 1
-- Autor 2
+- Autor ANDRES FELIPE GUTIERREZ VERA 
 
 # Herramientas
 
