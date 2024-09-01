@@ -8,6 +8,11 @@ public class Grupo {
     private Categoria categoria;
     private final List<Contacto> contactos;
 
+    /**
+     * Creacion del constructor
+     * @param nombre
+     * @param categoria
+     */
     public Grupo(String nombre, Categoria categoria) {
         this.nombre = nombre;
         this.categoria = categoria;
@@ -22,14 +27,27 @@ public class Grupo {
 }
 
 
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
+    public String getNombre() { 
+        return nombre; 
+    }
+    public void setNombre(String nombre) { 
+        this.nombre = nombre; 
+    }
 
-    public Categoria getCategoria() { return categoria; }
-    public void setCategoria(Categoria categoria) { this.categoria = categoria; }
+    public Categoria getCategoria() { 
+        return categoria; 
+    }
+    public void setCategoria(Categoria categoria) { 
+        this.categoria = categoria; 
+    }
 
-    public List<Contacto> getContactos() { return contactos; }
+    public List<Contacto> getContactos() { 
+        return contactos; 
+    }
 
+    /**
+     * 
+     */
     public void agregarContacto(Contacto contacto) {
         if (contactos.size() < 5 && !contactos.contains(contacto)) {
             contactos.add(contacto);
@@ -44,10 +62,10 @@ public class Grupo {
 
     @Override
     public String toString() {
-        return "Grupo{" +
-                "nombre='" + nombre + '\'' +
-                ", categoria=" + categoria +
-                ", contactos=" + contactos +
+        return "Grupo: {" +
+                "nombre = '" + nombre + '\n' +
+                ", categoria = " + categoria +
+                ", contactos = " + contactos +
                 '}';
     }
 }

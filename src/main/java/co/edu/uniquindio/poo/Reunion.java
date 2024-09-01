@@ -27,6 +27,10 @@ public class Reunion {
 
     public List<Contacto> getAsistentes() { return asistentes; }
 
+    /**
+     * 
+     * @param contacto
+     */
     public void agregarAsistente(Contacto contacto) {
         if (!asistentes.contains(contacto)) {
             asistentes.add(contacto);
@@ -41,11 +45,11 @@ public class Reunion {
 
     @Override
     public String toString() {
-        return "Reunion{" +
-                "descripcion='" + descripcion + '\'' +
-                ", fecha='" + fecha + '\'' +
-                ", hora='" + hora + '\'' +
-                ", asistentes=" + asistentes +
+        return "Reunion: {" +
+                "descripcion = '" + descripcion + '\n' +
+                ", fecha = '" + fecha + '\n' +
+                ", hora = '" + hora + '\n' +
+                ", asistentes = " + asistentes +
                 '}';
     }
 }
