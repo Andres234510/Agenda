@@ -45,12 +45,12 @@ public class Reunion {
 
     @Override
     public String toString() {
-        return "Reunion: {" +
+        return '\n' + "Reunion: {" +
                 "descripcion = '" + descripcion + '\n' +
                 ", fecha = '" + fecha + '\n' +
                 ", hora = '" + hora + '\n' +
                 ", asistentes = " + asistentes +
-                '}';
+                '}' + '\n';
     }
 }
 

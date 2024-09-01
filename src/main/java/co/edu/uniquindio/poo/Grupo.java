@@ -62,10 +62,10 @@ public class Grupo {
 
     @Override
     public String toString() {
-        return "Grupo: {" +
+        return '\n' + "Grupo: {" +
                 "nombre = '" + nombre + '\n' +
                 ", categoria = " + categoria +
                 ", contactos = " + contactos +
-                '}';
+                '}' + '\n';
     }
 }

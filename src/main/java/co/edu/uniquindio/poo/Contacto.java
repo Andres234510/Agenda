@@ -92,12 +92,12 @@ public class Contacto {
 
     @Override
     public String toString() {
-        return "Contacto: {" +
+        return '\n' + "Contacto: {" +
                 "nombre = '" + nombre + '\n' +
                 ", alias = '" + alias + '\n' +
                 ", direccion = '" + direccion + '\n' +
                 ", telefono = '" + telefono + '\n' +
                 ", email ='" + email + '\n' +
-                '}';
+                '}' + '\n';
     }
 }
